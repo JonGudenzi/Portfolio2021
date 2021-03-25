@@ -1,0 +1,30 @@
+.headerNav{
+    background-image: linear-gradient(rgb(163, 163, 163), rgb(74, 141, 141));
+}
+
+.nameJon{
+        margin-left: 30px;
+        width: 50%;
+        font-size: 60px;
+}
+
+a:hover{
+       text-decoration: none;
+       color: white;
+}
+
+.navText{
+    color: white;
+    text-decoration: none;
+    width: 200px;
+}
+
+.navList{
+    justify-content: space-between;
+    width: 800px;
+    margin-right: 100px;
+}
+
+.navText:hover{
+    border-bottom: 4px solid rgb(94, 240, 215);
+}
