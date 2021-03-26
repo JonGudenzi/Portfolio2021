@@ -1,37 +1,26 @@
 import React from "react";
 import "./Home.css";
 
+
+
 function Home() {
-    
-    return (
-      
-      <nav className="navbar navbar-expand-lg navbar-light bg-light headerNav">
-        <div className="container-fluid">
-            <h1 className="name nameJon">Jon Gudenzi</h1>
-            <ul className="navbar-nav navList col-5">
-                <li className="nav-item">
-                    <a className="navText" aria-current="page" href="#aboutMeNav">About Me</a>
-                </li>
-                <li className="nav-item">
-                    <a className="navText " href="#workNav">Work</a>
-                </li>
-                <li className="nav-item">
-                    <a className="navText" href="#contactNav">Contact</a>
-                </li>
-                <li className="nav-item">
-                    <a className="navText"
-                        href="https://docs.google.com/document/d/1RrJq8kZ_P1p-k3GWtwcuCztp4hL40FXpl4GtruKDvZ0/edit?usp=sharing"
-                        target="_blank">Resume</a>
 
-                </li>
-
-            </ul>
+  return (
+<div className="container my-container">
+        <div className="row justify-content-around my-row">
+            <div className="col-md-3 my-col">
+                <h1 id="aboutMeNav">About Me</h1>
+            </div>
+            <div className="col-md-9 my-col" id="aboutMeContent">
+                I am an aspiring developer who currently works a full time job in inventory and logistics. I have been
+                with my current employer for 15 years and have peaked at performance and growth within the organization.
+                I've chosen a new career path in computer programming with a focus on web development because I
+                enjoy the challenging and creative outlet.
+            </div>
         </div>
-    </nav>
+    </div>
+  );
 
-
-    );
-    
 }
 
 export default Home;
