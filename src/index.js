@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
+import Work from './components/Work/Work';
+import WorkData from "./components/Work/WorkData";
 
 ReactDOM.render(
     <React.StrictMode>
         <Header />
         <Home />
+        <Work workData={WorkData}/>
     </React.StrictMode>,
     document.getElementById('root')
 );
