@@ -1,19 +1,22 @@
 import React, {useState} from "react";
 import "./Work.css";
+// import homeImg from "../../assets/img/sunny.jpeg";
 
 
 function Work (props){
 
 const {workData} = props
 return(
-    <div>
+    <div >
         {workData.map((data, index)=>{
         return(
+            
             <div key={index} className="workItem">
+                
                     <p>{data.desc}</p>  
                     <a href={data.github}
                         target={data.github}>
-                        <div className="title1">
+                        <div className="title">
                             <h3>{data.title}</h3>
                             <p>{data.language}</p>
                         </div>

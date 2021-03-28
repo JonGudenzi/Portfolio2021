@@ -4,22 +4,24 @@
     background-size: cover;
     border-radius: 20px;
     border: darkturquoise solid 5px;
-    display: block;
+    display: flex;
     text-decoration: none;
     position: relative;
-    
+    width: 500px;
+    margin-left: 900px;
+    margin-top: 50px;
 }
 
-.workItem:hover{
+/* .workItem:hover{
     transform: scale(1.2);
     background-color: black;
-    /* background-image: url("../assets/images/beachgif2.gif"); */
+    background-image: url("../assets/images/beachgif2.gif");
     color: white;
     transition: 600ms ease-in;
     background-position: left;
-}
+} */
 
-.workItem:hover::before{
+/* .workItem:hover::before{
     content: attr(data-text);
     margin-top: 5px;
     margin-left: 5px;
@@ -33,7 +35,7 @@
     border-radius: 20px;
     text-align: center;
     
-}
+} */
 
 
 .title{

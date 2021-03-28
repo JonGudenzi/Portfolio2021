@@ -1,0 +1,14 @@
+#aboutMeContent {
+    border: darkturquoise solid 5px;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
+    color: black;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+#aboutMeNav{
+    margin-top: 50px;
+}
